@@ -1,7 +1,7 @@
 const board = document.getElementById("board")
 const deleteBtn = document.getElementById("deleteBtn")
 const applyBtn = document.getElementById("applyBtn")
-let boardSize = 200;
+let boardSize = 16;
 
 //remove all child from a node 
 function removeAllChildNodes(parent) {
